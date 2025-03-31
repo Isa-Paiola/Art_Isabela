@@ -171,7 +171,8 @@ a, i{
   }
   
   .roww img {
-    width: 100%;
+    width: 500px;
+    height: 300px;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
@@ -204,7 +205,7 @@ a, i{
   
   .layer p {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     line-height: 1.5;
   }
   
@@ -224,7 +225,7 @@ a, i{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: var(--card-bg-color);
+    background: #4d6592;
     border: none;
     color: white;
     font-size: 2rem;
@@ -242,7 +243,7 @@ a, i{
   }
   
   .carousel-button:hover {
-    background: var(--second-bg-color);
+    background-color: #8a9fc5;
     transform: translateY(-50%) scale(1.1);
   }
   
@@ -275,6 +276,6 @@ footer p{
 }
 
 a:hover i{
-    color: #c1b696;
+    color: #8a9fc5;
 }
 
